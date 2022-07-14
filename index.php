@@ -142,7 +142,7 @@ session_start();
                   <div class="box-cnt">
                     <span class="overlay"></span>
                     <div class="lg-image">
-                        <img src="/images/BENEFITS-OF-BLOOD-DONATION.jpg">
+                        <img src="/images/blood-donation-male-characters-donate-blood-diseased-people-female-nurse-taking-lifeblood-into-plastic-container-men-donor-sitting-medical-chair-clinic-cartoon-people-vector-illustration_877.webp">
                     </div>
                     </div>
                     <div class="txt">
@@ -154,7 +154,7 @@ session_start();
                 <div class="box-cnt">
                     <span class="overlay"></span>
                     <div class="lg-image">
-                        <img src="/images/BENEFITS-OF-BLOOD-DONATION.jpg">
+                        <img src="/images/hospital.jpg">
                     </div>
                 </div>
                     <div class="txt">
@@ -167,7 +167,7 @@ session_start();
                  <div class="box-cnt">
                     <span class="overlay"></span>
                     <div class="lg-image">
-                        <img src="/images/BENEFITS-OF-BLOOD-DONATION.jpg">
+                        <img src="/images/lifeblood-transfusion-from-human-hand-plastic-container-doctor-blood-donation-laboratory_7737-2251.webp">
                     </div>
                     </div>
                     <div class="txt">

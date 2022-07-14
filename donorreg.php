@@ -20,7 +20,7 @@
             </div>
             <ul class="nav-list">
                 <li>
-                    <a href="index.php">
+                    <a href="home.php">
                     <span class="material-icons">home</span>
                     <span class="links-name">Home</span>
                     </a>
@@ -42,7 +42,7 @@
                     <span class="tooltip">About Us</span>
                 </li>
                 <li>
-                    <a href="donor.php">
+                    <a href="bdonor.php">
                     <span class="material-icons">bloodtype</span>
                     <span class="links-name">Become a donor</span>
                     </a>

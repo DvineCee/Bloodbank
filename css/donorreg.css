@@ -110,6 +110,7 @@ img{
     line-height: 50px;
     font-size: xx-large;
     text-align: center;
+    color: #eb4444;
 }
 .sidebar ul li a .material-icons:hover{
     background: white;
@@ -122,6 +123,7 @@ img{
 .sidebar.active .links-name{
     opacity: 1;
     pointer-events: auto;
+    color: #d34040;
 }
 
 
@@ -143,7 +145,8 @@ img{
     height: 80%;
     width: 80%;
     background: white;
-    border-radius: 25px;
+    border-radius: 20px;
+    box-shadow:2px 1px 1px #2b2b2b;
 }
 .banner{
     width: 100%;
