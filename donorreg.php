@@ -55,50 +55,9 @@
 
     <div class="page">
         <div class="form-contnr">
-            <div class="sign-dnr-hsp">
-                <form action="donorreg.php" class="donoreg" method="POST">
-                    <h2 class="title">Sign Up</h2>
-                    
-                    <div class="input-field">
-                        <span class="material-icons">
-                            person
-                        </span>
-                        <input type="username" name="username" placeholder="Username" required>
-                        </div>
-
-                    <div class="input-field">
-                        <span class="material-icons">
-                            email
-                        </span>
-                        <input type="email" name="email" placeholder="Email" required>
-                    </div>
-                    
-                    <div class="input-field">
-                        <span class="material-icons">
-                            local_phone
-                        </span>
-                        <input type="phone" name="phone" placeholder="Phone no." required>
-                        </div>
-                        
-                        <div class="input-field">
-                        <span class="material-icons">
-                            lock
-                        </span>
-                        <input type="password" name="password_1" placeholder="Password" required>
-                        </div>
-
-                        <div class="input-field">
-                        <span class="material-icons">
-                            lock
-                        </span>
-                        <input type="password" name="password_2" placeholder="Confirm Password" required>
-                        </div>
-
-                        <input type="submit" value="Sign Up" name="Sign_person" class="btn solid">
-                        <p class="so-text">Already have an account?, <a href="login.php">Login</a></p>
-                </form>
-                </div>
-                
+            <div class="banner">
+            <img src="/images/volunteer-collecting-blood-donation-free-vector.jpg" alt="">
+            </div>
              <div class="container">
     <div class="content">
       <form action="#">
@@ -162,6 +121,18 @@
         </div>
       </form>
     </div>
+    
   </div>
+
+
+
+  <script>
+        let btn = document.querySelector("#btn");
+    let sidebar = document.querySelector(".sidebar");
+
+    btn.onclick = function() {
+        sidebar.classList.toggle("active");
+    }
+    </script>
 </body>
 </html>

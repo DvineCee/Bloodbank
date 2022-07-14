@@ -81,7 +81,7 @@
                                     The new blood cells would help in maintaining a person’s good health.</p>
                 </div>
                 <div class="btndnr">
-                <a href="dregister.php"><button class="dnr-reg">Become a Donor</button></a>
+                <a href="donorreg.php"><button class="dnr-reg">Become a Donor</button></a>
                 </div>
             </div>
 
