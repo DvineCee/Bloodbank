@@ -63,39 +63,105 @@
                         <span class="material-icons">
                             person
                         </span>
-                        <input type="username" name="username" placeholder="Username">
+                        <input type="username" name="username" placeholder="Username" required>
                         </div>
 
                     <div class="input-field">
                         <span class="material-icons">
                             email
                         </span>
-                        <input type="email" name="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
                     
                     <div class="input-field">
                         <span class="material-icons">
                             local_phone
                         </span>
-                        <input type="phone" name="phone" placeholder="Phone no.">
+                        <input type="phone" name="phone" placeholder="Phone no." required>
                         </div>
                         
                         <div class="input-field">
                         <span class="material-icons">
                             lock
                         </span>
-                        <input type="password" name="password_1" placeholder="Password">
+                        <input type="password" name="password_1" placeholder="Password" required>
                         </div>
 
                         <div class="input-field">
                         <span class="material-icons">
                             lock
                         </span>
-                        <input type="password" name="password_2" placeholder="Confirm Password">
+                        <input type="password" name="password_2" placeholder="Confirm Password" required>
                         </div>
 
                         <input type="submit" value="Sign Up" name="Sign_person" class="btn solid">
                         <p class="so-text">Already have an account?, <a href="login.php">Login</a></p>
                 </form>
+                </div>
+                
+             <div class="container">
+    <div class="content">
+      <form action="#">
+      <div class="title"><h2>Become A Donor</h2>
+    <i class='bx bxs-donate-blood bx-tada bx-flip-horizontal' ></i>
+    </div>
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Date of Birth</span>
+            <input type="date" placeholder="Enter Date of birth" class="form-control" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter Phone" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Blood Group</span>
+            <select name="Blood Group" class="form-control" required>
+                <option value="">Select Blood Group</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Continue">
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
