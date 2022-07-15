@@ -85,10 +85,7 @@
                 </div>
             </div>
 
-            <section id="reveal">
-            <h1>Become a Life Saver today, Be a True hero</h1>
             
-            </section>
         </div>
  
 

@@ -84,11 +84,28 @@
                 <a href="signup.php"><button class="dnr-reg">Become a Donor</button></a>
                 </div>
             </div>
+            </div>
 
             <section id="reveal">
-
-            </section>
+            <div class="container reveal">
+        <h2>Your Title</h2>
+        <div class="cards">
+          <div class="text-card">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="text-card">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="text-card">
+            <h3>Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
         </div>
+      </div>
+            </section>
+        
  
 
 
@@ -118,6 +135,29 @@
 
     btn.onclick = function() {
         sidebar.classList.toggle("active");
+    }
+    </script>
+
+
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+
+    function reveal(){
+      var reveals = document.querySelectorAll('.reveal');
+
+      for(var i = 0; i < reveals.length; i++){
+
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 150;
+
+        if(revealtop < windowheight - revealpoint){
+          reveals[i].classList.add('active');
+        }
+        else{
+          reveals[i].classList.remove('active');
+        }
+      }
     }
     </script>
 
