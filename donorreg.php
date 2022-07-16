@@ -56,7 +56,7 @@
     <div class="page">
         <div class="form-contnr">
             <div class="banner">
-            <img src="/images/volunteer-collecting-blood-donation-free-vector.jpg" alt="">
+            <img src="/images/set-people-donating-blood_52683-19547.jpg" alt="">
             </div>
              <div class="container">
     <div class="content">
