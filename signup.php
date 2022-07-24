@@ -117,7 +117,7 @@ session_start();
                         </div>
 
                         <input type="submit" value="Sign Up" name="Sign_person" class="btn solid">
-                        <p class="so-text">Already have an account?, <a href="login.php">Login</a></p>
+                        <p class="so-text">Already have an account? <a href="login.php">Login</a></p>
                 </form>
 
                 <form action="" class="sign-up-hsptl" method="POST">
@@ -152,7 +152,7 @@ session_start();
                         </div>
 
                         <input type="submit" value="Sign Up" name="Sign_hosptl" class="btn">
-                        <p class="so-text">Already have an account?, <a href="login.php">Login</a></p>   
+                        <p class="so-text">Already have an account? <a href="login.php">Login</a></p>   
                 </form>
              </div>
             </div>
