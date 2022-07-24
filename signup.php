@@ -172,7 +172,7 @@ session_start();
                 <div class="panel right-panel">
                     <div class="content">
                         <h3>Individual?</h3>
-                        <p>Are you a Person?, looking forward to becoming a donor?
+                        <p>Are you a Person? looking forward to becoming a donor?
                            Sign Up here, become a donor and save lives.
                         </p>
                         <button class="btn transparent" id="sign-prsn">Sign Up</button>
