@@ -516,7 +516,7 @@ form.sign-up-hsptl{
   @media (max-width: 570px) {
     form {
       padding: 0 1.5rem;
-      margin-left: 10px;
+      
     }
     p{
         text-align: center;
@@ -528,16 +528,14 @@ form.sign-up-hsptl{
       padding: 0.5rem 1rem;
     }
     .sidebar{
+        display: none;
         width: 70px;
     }
-    .sidebar ul li{
-        margin-top: 10px;
-        margin-left: -5px;
-    }
+    
     .page {
       padding: 1.5rem;
-      margin-left: 20px;
-      width: 96%;
+      
+      width: 100%;
     }
   
     .page:before {

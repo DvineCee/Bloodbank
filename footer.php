@@ -20,7 +20,7 @@ img{
 </head>
 <body>
   <div id="footer" >
-    <img src="/images/ENACTUS LOGO.png" alt="">
+    <img src="images/ENACTUS LOGO.png" alt="">
   <b><center>powered by enactus Unical<br> COPYRIGHT © 2022<br>
   onebloodbank e-bloodbank 
   <br>

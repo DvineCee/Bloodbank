@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/donordash.css">
+    <link rel="stylesheet" href="css/donordash.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -76,7 +76,7 @@
                 <div class="boxes">
                     <div class="box-1">
                     <div class="person">
-                        <img src="/images/20-203432_profile-icon-png-image-free-download-searchpng-ville.png" alt="">
+                        <img src="images/20-203432_profile-icon-png-image-free-download-searchpng-ville.png" alt="">
                         <h3>Personal info</h3>
                         </div>
                         <div class="prof">

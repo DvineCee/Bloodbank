@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-    <link rel="stylesheet" href="/css/donor.css">
+    <link rel="stylesheet" href="css/donor.css">
     <title>Become a donor</title>
 </head>
 <body>
 <div class="sidebar">
         <div class="logo-content">
              <div class="logo">
-             <img src="/images/bloodbanklogo2.png">
+             <img src="images/bloodbanklogo2.png">
             </div>
             <span class="material-icons" id="btn">menu</span>
             </div>
@@ -53,7 +53,7 @@
        
         <nav>
             <a href="#" class="logo">
-                <img src="/images/bloodbanklogo.png"/>
+                <img src="images/bloodbanklogo.png"/>
             </a>
             <ul class="menu">
                 <li><a href="index.php">Home</a></li>
@@ -68,7 +68,7 @@
         <div class="home">
             <div class="home-img">
                 <div class="image">
-                    <img src="/images/2690217 (2).jpg" alt="">
+                    <img src="images/2690217 (2).jpg" alt="">
                 </div>
                 <div class="didtxt">
                     <div class="matdyk">

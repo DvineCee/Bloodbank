@@ -13,7 +13,7 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/donorreg.css">
+    <link rel="stylesheet" href="css/donorreg.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -23,7 +23,7 @@ session_start();
 <div class="sidebar">
         <div class="logo-content">
              <div class="logo">
-             <img src="/images/bloodbanklogo2.png">
+             <img src="images/bloodbanklogo2.png">
             </div>
             <span class="material-icons" id="btn">menu</span>
             </div>
@@ -65,7 +65,7 @@ session_start();
     <div class="page">
         <div class="form-contnr">
             <div class="banner">
-            <img src="/images/set-people-donating-blood_52683-19547.jpg" alt="">
+            <img src="images/set-people-donating-blood_52683-19547.jpg" alt="">
             </div>
              <div class="container">
     <div class="content">

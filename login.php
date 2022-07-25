@@ -16,14 +16,14 @@ session_start();
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="css/signup.css">
     <title>Login</title>
 </head>
 <body>
 <div class="sidebar">
         <div class="logo-content">
              <div class="logo">
-             <img src="/images/bloodbanklogo2.png">
+             <img src="images/bloodbanklogo2.png">
             </div>
             <span class="material-icons" id="btn">menu</span>
             </div>
@@ -63,7 +63,7 @@ session_start();
        
         <nav>
             <a href="#" class="logo">
-                <img src="/images/bloodbanklogo.png"/>
+                <img src="images/bloodbanklogo.png"/>
             </a>
             <ul class="menu">
                 <li><a href="home.php">Home</a></li>
@@ -163,16 +163,16 @@ session_start();
     </script>
 
         <script>
-const sign_prsn = document.querySelector("#sign-prsn");
-const sign_hsptl = document.querySelector("#sign-hsptl");
-const page = document.querySelector(".page")
+        const sign_prsn = document.querySelector("#sign-prsn");
+        const sign_hsptl = document.querySelector("#sign-hsptl");
+        const page = document.querySelector(".page")
 
-sign_hsptl.addEventListener('click', () => {
-    page.classList.add("sign-up-mode");
-});
-sign_prsn.addEventListener('click', () => {
-    page.classList.remove("sign-up-mode");
-});
+        sign_hsptl.addEventListener('click', () => {
+            page.classList.add("sign-up-mode");
+        });
+        sign_prsn.addEventListener('click', () => {
+            page.classList.remove("sign-up-mode");
+        });
 
         </script>
 

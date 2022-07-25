@@ -62,7 +62,7 @@ session_start();
 
         <nav>
             <a href="#" class="logo">
-                <img src="/images/bloodbanklogo.png"/>
+                <img src="images/bloodbanklogo.png"/>
             </a>
             <ul class="menu">
                 <li><a href="home.php">Home</a></li>
@@ -78,7 +78,7 @@ session_start();
         <div class="home-content">
             <div class="image-slider">
                 <div class="image-item active">
-                    <img src="/images/blood-donation-1654774436.webp" alt="">
+                    <img src="images/blood-donation-1654774436.webp" alt="">
                     <div class="info">
                         <h1 data-text="Welcome">Welcome to e-BloodBank</h1>
                         <p>Connecting Donors to save lives</p>
@@ -87,7 +87,7 @@ session_start();
                      
                 </div>
                 <div class="image-item">
-                    <img src="/images/6553670.jpg" alt="">
+                    <img src="images/6553670.jpg" alt="">
                     <div class="info">
                         <h1 class="donate" data-text=""></h1>
                         <p class="save">Become a donor today, help save a life</p>
@@ -96,7 +96,7 @@ session_start();
                 </div>
 
                 <div class="image-item">
-                    <img src="/images/donate_blood_rotator.jpg" alt="">
+                    <img src="images/donate_blood_rotator.jpg" alt="">
                     <div class="info">
                         <h1 data-text="Give">Give Blood, Give life</h1>
                         <p>Becoming a donor is beneficial to your health</p>
@@ -105,7 +105,7 @@ session_start();
                 </div>
 
                 <div class="image-item">
-                    <img src="/images/Blood-facts_10-illustration-graphics__canteen.png" alt="">
+                    <img src="images/Blood-facts_10-illustration-graphics__canteen.png" alt="">
                     <div class="info">
                         <h1 data-text="Save">Save a Life</h1>
                         <p>Give the gift of blood</p>
@@ -114,7 +114,7 @@ session_start();
                 </div>
 
                 <div class="image-item">
-                    <img src="/images/_107317099_blooddonor976.jpg" alt="">
+                    <img src="images/_107317099_blooddonor976.jpg" alt="">
                     <div class="info">
                         <h1 data-text="Welcome">Welcome to e-BloodBank</h1>
                         <p>Connecting Donors to save lives</p>
@@ -141,7 +141,7 @@ session_start();
                   <div class="box-cnt">
                     <span class="overlay"></span>
                     <div class="lg-image">
-                        <img src="/images/blood-donation-male-characters-donate-blood-diseased-people-female-nurse-taking-lifeblood-into-plastic-container-men-donor-sitting-medical-chair-clinic-cartoon-people-vector-illustration_877.webp">
+                        <img src="images/blood-donation-male-characters-donate-blood-diseased-people-female-nurse-taking-lifeblood-into-plastic-container-men-donor-sitting-medical-chair-clinic-cartoon-people-vector-illustration_877.webp">
                     </div>
                     </div>
                     <div class="txt">
@@ -154,7 +154,7 @@ session_start();
                 <div class="box-cnt">
                     <span class="overlay"></span>
                     <div class="lg-image">
-                        <img src="/images/hospital.jpg">
+                        <img src="images/hospital.jpg">
                     </div>
                 </div>
                 <div class="txt">
@@ -166,7 +166,7 @@ session_start();
                  <div class="box-cnt">
                     <span class="overlay"></span>
                     <div class="lg-image">
-                        <img src="/images/lifeblood-transfusion-from-human-hand-plastic-container-doctor-blood-donation-laboratory_7737-2251.webp">
+                        <img src="images/lifeblood-transfusion-from-human-hand-plastic-container-doctor-blood-donation-laboratory_7737-2251.webp">
                     </div>
                     </div>
                     <div class="txt">
@@ -182,7 +182,7 @@ session_start();
         <h2 class="main-title">Donate Blood, Save a Life</h2>
         <div class="content">
           <div class="image">
-            <img src="/images/volunteer-collecting-blood-donation-free-vector.jpg" alt="">
+            <img src="images/volunteer-collecting-blood-donation-free-vector.jpg" alt="">
           </div>
           <div class="text-box">
           <h3></h3>

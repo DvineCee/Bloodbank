@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<div class="image-section">
-				<img src="/images/bloodbanklogo2.png">
+				<img src="images/bloodbanklogo2.png">
 			</div>
 		</div>
 
@@ -54,7 +54,7 @@
 				</div>
 			</div>
 			<div class="image-section">
-				<img src="/images/IMG-20220725-WA0014.jpg">
+				<img src="images/IMG-20220725-WA0014.jpg">
 			</div>
 		</div>
 
@@ -83,7 +83,7 @@
 		</div>
 	</div>
     <div id="footer" >
-    <img src="/images/ENACTUS LOGO.png" alt="">
+    <img src="images/ENACTUS LOGO.png" alt="">
   <b><center>powered by enactus Unical<br> COPYRIGHT © 2022<br>
   onebloodbank e-bloodbank 
   <br>
