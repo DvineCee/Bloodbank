@@ -4,6 +4,7 @@ session_start();
     $_SESSION;
 ?>
 <?php include('server.php') ?>
+<?php include('server2.php') ?>
 
 
 <!DOCTYPE html>
@@ -109,7 +110,7 @@ session_start();
                         <span class="material-icons">
                             email
                         </span>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email">
                     </div>
                         
                         <div class="input-field">

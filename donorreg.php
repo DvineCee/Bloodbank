@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+    $_SESSION;
+?>
+<?php include('donorconn.php') ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,30 +69,30 @@
             </div>
              <div class="container">
     <div class="content">
-      <form action="#">
+      <form action="donorreg.php" method="POST">
       <div class="title"><h2>Become A Donor</h2>
     <i class='bx bxs-donate-blood bx-tada bx-flip-horizontal' ></i>
     </div>
         <div class="user-details">
           <div class="input-box">
             <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
+            <input type="text" name="name" placeholder="Enter your name" required>
           </div>
           <div class="input-box">
             <span class="details">Date of Birth</span>
-            <input type="date" placeholder="Enter Date of birth" class="form-control" required>
+            <input type="date" name="DOB" placeholder="Enter Date of birth" class="form-control" required>
           </div>
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text" placeholder="Enter your email" required>
+            <input type="text" name="email" placeholder="Enter your email" required>
           </div>
           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter Phone" required>
+            <input type="text" name="phone" placeholder="Enter Phone no." required>
           </div>
           <div class="input-box">
             <span class="details">Blood Group</span>
-            <select name="Blood Group" class="form-control" required>
+            <select name="blood_group" class="form-control" required>
                 <option value="">Select Blood Group</option>
                 <option value="A+">A+</option>
                 <option value="A-">A-</option>
@@ -117,7 +126,7 @@
           </div>
         </div>
         <div class="button">
-          <input type="submit" value="Continue">
+          <input type="submit" name="donorreg" value="Continue">
         </div>
       </form>
     </div>

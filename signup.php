@@ -4,6 +4,7 @@ session_start();
     $_SESSION;
 ?>
 <?php include('server.php') ?>
+<?php include('server2.php') ?>
 
 
 
@@ -127,14 +128,14 @@ session_start();
                         <span class="material-icons">
                             local_hospital
                         </span>
-                        <input type="text" placeholder="Hospital Name">
+                        <input type="text" name="name" placeholder="Hospital Name">
                         </div>
 
                     <div class="input-field">
                         <span class="material-icons">
                             email
                         </span>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email">
                     </div>
                         
                         <div class="input-field">
