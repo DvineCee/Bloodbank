@@ -196,7 +196,7 @@ session_start();
       </div>
     </section>
        
-        
+    <?php include 'footer.php' ?>
         
         
 

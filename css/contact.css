@@ -211,3 +211,40 @@ tr td{
     width: 83%;
     left: 245px;
 }
+
+
+
+@media (max-width: 1190px) {
+    section .content{
+      width: 85%;
+    }
+  }
+  @media (max-width: 1000px) {
+    .services .boxes .box{
+      margin: 20px 0;
+      width: calc(100% / 2 - 20px);
+    }
+  }
+  @media (max-width: 750px) {
+    .home .text-two{
+      font-size: 65px;
+    }
+    .home .text-three{
+      font-size: 35px;
+    }
+    .services .boxes .box{
+      margin: 20px 0;
+      width: 100%;
+    }
+  }
+  @media (max-width: 500px){
+    .home .text-two{
+      font-size: 55px;
+    }
+    .home .text-three{
+      font-size: 33px;
+    }
+  }
+  
+  
+  

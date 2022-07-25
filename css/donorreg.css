@@ -286,3 +286,35 @@ visibility: hidden;
     height: 250px;
     width: 350px;
   }
+
+
+
+  @media (max-width: 580px) {
+    .banner {
+      height: 250px;
+    }
+    .form-contnr{
+        width: 90%;
+        margin-left: 10px;
+    }
+    
+    p{
+        text-align: center;
+    }
+    .image {
+      display: none;
+    }
+    .panel .content {
+      padding: 0.5rem 1rem;
+    }
+    .sidebar{
+        width: 60px;
+    }
+    .sidebar ul li{
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+}
+  
+  
+  

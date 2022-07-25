@@ -112,6 +112,7 @@
         </div>
     </div>
     </section>
+    <?php include 'footer.php' ?>
     <script>
         let btn = document.querySelector("#btn");
     let sidebar = document.querySelector(".sidebar");

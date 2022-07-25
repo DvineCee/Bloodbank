@@ -108,7 +108,7 @@
         
  
 
-
+            <?php include 'footer.php' ?>
 
 
 

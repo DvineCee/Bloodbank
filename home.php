@@ -134,7 +134,76 @@ session_start();
                 
         </div>
 
+        <section id="about">
+            <h1> E-BloodBank</h1>
+            <div class="e-box">
+                <div class="e-box-one">
+                  <div class="box-cnt">
+                    <span class="overlay"></span>
+                    <div class="lg-image">
+                        <img src="/images/blood-donation-male-characters-donate-blood-diseased-people-female-nurse-taking-lifeblood-into-plastic-container-men-donor-sitting-medical-chair-clinic-cartoon-people-vector-illustration_877.webp">
+                    </div>
+                    </div>
+                    <div class="txt">
+                        <h2>Donate</h2>
+                        <p class="one">The need for blood</p>
+                    </div>
+                </div>
+                <div class="e-box-two">
+                <div class="box-cnt">
+                    <span class="overlay"></span>
+                    <div class="lg-image">
+                        <img src="/images/hospital.jpg">
+                    </div>
+                </div>
+                    <div class="txt">
+                        <h2>Donation benefits</h2>
+                        <p>E-blood bank is a digital service that creates a communication channel through authenticated
+                                        health facilities, whenever a patient needs blood, with a rapid response to urgent requests for
+                                        blood components in various parts of Calabar.</p></div>
+                </div>
+                <div class="e-box-three">
+                 <div class="box-cnt">
+                    <span class="overlay"></span>
+                    <div class="lg-image">
+                        <img src="/images/lifeblood-transfusion-from-human-hand-plastic-container-doctor-blood-donation-laboratory_7737-2251.webp">
+                    </div>
+                    </div>
+                    <div class="txt">
+                        <h2>What we do</h2>
+                        <p>Blood</p></div>
+                </div>
+            </div>
         </section>
+        
+        <section class="sec-01">
+      <div class="container">
+        <h2 class="main-title">Donate Blood, Save a Life</h2>
+        <div class="content">
+          <div class="image">
+            <img src="/images/volunteer-collecting-blood-donation-free-vector.jpg" alt="">
+          </div>
+          <div class="text-box">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <?php include 'footer.php' ?>
+        
+        
+        
+
+
+        
+
+
+
+
+
 
 
 
