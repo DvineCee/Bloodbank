@@ -262,6 +262,7 @@ section .container{
   
   section h1{
     font-size: 60px;
+    
   }
   
   section h2{
@@ -286,6 +287,14 @@ section .container{
     text-transform: uppercase;
     margin-bottom: 10px;
   }
+  
+.donorbtn{
+    position: relative;
+    margin-left: 40%;
+}
+.donorbtn .down{
+    width: 300px;
+}
 
 .reveal{
     position: relative;
@@ -300,37 +309,94 @@ section .container{
   }
 
 
-  @media (max-width: 1190px) {
-    section .content{
-      width: 85%;
+  @media (max-width: 900px){
+    nav ul li{
+        display: none;
     }
+    .sidebar{
+        width: 60px;
+    }
+    .home{
+        position: relative;
+        display: block;
+        width: 100%
+    }
+    
+        
+    .home .dnr-reg{
+        width: 160px;
+        position: relative;
+        margin-left: 200px;
+        margin-top: 10px;
+        
+        box-shadow: 2px 2px 0 2px black;
+    }  
+        
+    .home .home-img{
+        display: block;
+        align-items: center;
+        padding: 10px;
+        margin-left: 50px
+    }
+    .home .home-img .image{
+        width: auto;
+        height: 100%;
+        
+    
+    }
+    .image img{
+        width: 400px;
+        height: 300px;
+        border-radius: 15px 15px 0 0;
+    }
+    .home .home-img .didtxt{
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
+    .didtxt .material-icons{
+       font-size: 48px;
+       display: flex;
+    }
+    .didtxt .matdyk{
+        display: flex;
+        color: #010f16;
+        width: 290px;
+        
+        
+    }
+    .didtxt{
+        position: relative;
+        margin-left: 80px;
+        
+    }
+    
+    
+    section h1{
+      font-size: 30px;
+    
+    }
+    section h2{
+        font-size: 30px;
+        text-align: center;
+        
+      }
+
+      section h3{
+        font-size: 30px;
+        text-align: center;
+        
+      }
+    section .cards{
+      display: block;
+      margin-left: 50px;
+      width: 300px;
+    }
+    .sidebar ul li{
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+
   }
-  @media (max-width: 1000px) {
-    .services .boxes .box{
-      margin: 20px 0;
-      width: calc(100% / 2 - 20px);
-    }
-  }
-  @media (max-width: 750px) {
-    .home .text-two{
-      font-size: 65px;
-    }
-    .home .text-three{
-      font-size: 35px;
-    }
-    .services .boxes .box{
-      margin: 20px 0;
-      width: 100%;
-    }
-  }
-  @media (max-width: 500px){
-    .home .text-two{
-      font-size: 55px;
-    }
-    .home .text-three{
-      font-size: 33px;
-    }
-  }
-  
   
   

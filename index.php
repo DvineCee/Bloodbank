@@ -149,9 +149,11 @@ session_start();
                     </div>
                     <div class="txt">
                         <h2>Donate</h2>
-                        <p class="one">The need for blood</p>
+                        <p class="one">The need for blood is ever rising and patients all across Nigeria need blood donors
+                            Become a Donor today <a href="donor.php"> Click here to save a life</a> </p>
                     </div>
                 </div>
+
                 <div class="e-box-two">
                 <div class="box-cnt">
                     <span class="overlay"></span>
@@ -160,10 +162,9 @@ session_start();
                     </div>
                 </div>
                     <div class="txt">
-                        <h2>Donation benefits</h2>
-                        <p>E-blood bank is a digital service that creates a communication channel through authenticated
-                                        health facilities, whenever a patient needs blood, with a rapid response to urgent requests for
-                                        blood components in various parts of Calabar.</p></div>
+                        <h2>Connect to Hospitals</h2>
+                        <p>Donating blood is beneficial as it reduces the risk of heart and liver ailments that are caused due to iron overload in the body. 
+                                                                    </p></div>
                 </div>
                 <div class="e-box-three">
                  <div class="box-cnt">
@@ -174,7 +175,7 @@ session_start();
                     </div>
                     <div class="txt">
                         <h2>What we do</h2>
-                        <p>Blood</p></div>
+                        <p>E-BloodBank connects hospitals to donors reducing the risks of losing a loved one for lack of blood </p></div>
                 </div>
             </div>
         </section>
@@ -187,10 +188,13 @@ session_start();
             <img src="/images/volunteer-collecting-blood-donation-free-vector.jpg" alt="">
           </div>
           <div class="text-box">
-            <h3>Lorem Ipsum</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h3></h3>
+            <p>Blood is high in demand globally. Human blood cannot be manufactured by industries. Blood can be received only from donors. 
+
+There are a lot of myths surrounding donating blood. Donating blood has a lot of health benefits. 
+
+Donating blood doesn’t just limit its benefits to the receiver but also offers health benefits to the donors.
+            </p>
           </div>
         </div>
       </div>

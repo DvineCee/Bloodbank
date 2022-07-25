@@ -88,23 +88,32 @@
 
             <section id="reveal">
             <div class="container reveal">
-        <h2>Your Title</h2>
+        <h2>FACTS ABOUT BLOOD</h2>
         <div class="cards">
           <div class="text-card">
-            <h3>Title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>Donate</h3>
+            <p>More than 1.5 million patients need blood transfusions each year.
+                lives are lost, Hospitals are in need of Donors, Become a donor, become a life saver, Become A HERO.</p>
           </div>
           <div class="text-card">
-            <h3>Title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>Benefits</h3>
+            <p>When you donate blood, the risk of developing cancer is very low. Blood donation makes you mentally happy. 
+
+Someone is desperately in need of help, and your blood might save a life. </p>
           </div>
           <div class="text-card">
-            <h3>Title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>Become a donor</h3>
+            <p> If all blood donors gave three times a year, blood shortages would be a rare event.
+                Blood donation. It’s about an hour of your time. It’s About Life.
+            </p>
           </div>
         </div>
+
       </div>
             </section>
+            <div class="donorbtn">
+            <button class="down"><a href="login.php"> Become A Donor</a></button>
+            </div>
         
  
 
