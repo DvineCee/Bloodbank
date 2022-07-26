@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="css/donor.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <title>SaveLife</title>
 </head>
 <body>
