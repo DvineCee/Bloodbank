@@ -1,0 +1,23 @@
+*{
+    padding: 15px;
+    margin: 0;
+}
+body{
+    background: rgba(255, 255, 255, 0.636);
+    font-family: 'poppins';
+}
+h1{
+    color: black;
+}
+.container{
+    padding: 20px;
+}
+button{
+    background: orangered;
+    height: 100px;
+    width: 200px;
+    font-weight: 700;
+    font-size: large;
+    color: white;
+    border-radius: 20px;
+}

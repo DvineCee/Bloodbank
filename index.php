@@ -11,6 +11,8 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css"/>
+    
+
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -59,6 +61,14 @@ session_start();
                     <span class="tooltip">Become a donor</span>
                     
                 </li>
+                <li>
+                    <a href="donor.php">
+                    <span class="material-icons">cloud_download</span>
+                    <span class="links-name">Download App</span>
+                    </a>
+                    <span class="tooltip">Get the App</span>
+                    
+                </li>
             </ul>
     </div>
        
@@ -73,6 +83,7 @@ session_start();
                 <li><a href="donor.php">Become a Donor</a></li>
                 <a href="signup.php"><button>Sign up</button></a>
                 <a href="login.php"><button>Login</button></a>
+                <a href="getApp.php"><button>Get the App</button></a>
             </ul>
         </nav>
         

@@ -2,12 +2,14 @@
 
 
 // initializing variables
-$username = "";
-$email    = "";
+$server_name = "localhost";
+$username = "root";
+$password    = "";
+$database = "bloodbank";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'bloodbank');
+$db = mysqli_connect($server_name, $username, $password, $database);
 
 // REGISTER USER
 if (isset($_POST['Sign_person'])) {

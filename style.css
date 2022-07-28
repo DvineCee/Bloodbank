@@ -532,9 +532,14 @@ button:hover{
       width: calc(100% / 2 - 20px);
     }
   }
-    @media screen and (max-width: 768px) {
+    @media (max-width: 768px) {
+        #about{
+        padding-left: 20px;
+        background: #d60404;
+        }
         .home-content{
             width: 100%;
+            
         }
         .e-box .lg-image img{
             border-radius: 10px;
@@ -542,7 +547,8 @@ button:hover{
             height: 100px;
         }
         .e-box{
-          padding: 20px;
+            background-color: #d60404;
+          padding: 30px;
           margin: 0 10px;
           display: block;
         }
@@ -562,7 +568,7 @@ button:hover{
 
     .container{
         position: relative;
-        display: flex;
+       
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -615,8 +621,12 @@ button:hover{
       }
       .sec-01{
         width: 100%;
-       
+       display: none;
       }
+      nav ul li{
+        display: none;
+    }
+    
     }
       
   @media (max-width: 570px){
@@ -627,6 +637,7 @@ button:hover{
       font-size: 33px;
     }
     .sidebar{
+        display: none;
         width: 60px;
     }
     .sidebar ul li{

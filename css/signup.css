@@ -513,7 +513,7 @@ form.sign-up-hsptl{
     }
   }
   
-  @media (max-width: 570px) {
+  @media (max-width: 1000px) {
     form {
       padding: 0 1.5rem;
       
