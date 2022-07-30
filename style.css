@@ -89,7 +89,13 @@ button:hover{
     color: rgb(255, 235, 235);
     border: solid rgb(255, 255, 255);
 }
-
+nav .show{
+    display: none;
+}
+nav .menu-btn{
+    display: none;
+    z-index: 999;
+}
 
 
 .sidebar{
@@ -522,17 +528,142 @@ button:hover{
 
 
   @media (max-width: 1190px) {
-    section .content{
-      width: 85%;
+
+    .content .text-box{
+        z-index: 222;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        padding: 20px;
+        max-width: 400px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        margin-left: -50px;
+        transform: translate(-80px, 50px);
+      }
+      .content{
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    .sidebar{
+        display: none;
     }
+    nav .show{
+        display: flex;
+    }
+    nav{
+        justify-content: space-between;
+        height: 70px;
+        pad:0px 10px;
+    }
+    nav .menu{
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        background: rgb(255, 255, 255);
+        border-bottom: 4px solid #242424;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    nav .menu li a{
+        width: 100%;
+        height: 40px;
+        padding: 25px;
+        margin: 0px;
+        align-items: center;
+        border: 1px solid rgba(151,151,151,0.03);
+    }
+    nav .menu-icon{
+        cursor: pointer;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+        display: block;
+        z-index: 999;
+    }
+    nav .menu-icon .nav-icon{
+        background-color: #333333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background 0.2s ease-out;
+        width: 18px;
+    }
+    nav .menu-icon .nav-icon:before,
+    nav .menu-icon .nav-icon:after{
+        background: #333333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: relative;
+        transition: all ease-out 0.2s;
+        width: 100%;
+    }
+    nav .menu-icon .nav-icon::before{
+        top: 5px;
+    }
+    nav .menu-icon .nav-icon::after{
+        top: -5px;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon{
+        background: transparent;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+    nav .menu-btn{
+        display: none;
+    }
+    nav .menu-btn:checked ~ .menu{
+        display: block;
+    }
+    .e-box{
+        background-color: #d60404;
+      padding: 30px;
+      margin: 0 10px;
+      display: block;
+    }
+    .home-content .image-item img{
+        width: 100%;
+        height: 350px;
+        opacity: 0.5;
+        z-index: 1;
   }
+  .home-content .image-slider{
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width: 100%; 
+    position: relative;
+}
+
+    }
+  
   @media (max-width: 1000px) {
-    .services .boxes .box{
-      margin: 20px 0;
-      width: calc(100% / 2 - 20px);
+    .sidebar{
+        display: none;
+    }
+    .sec-01{
+        width: 100%;
     }
   }
     @media (max-width: 768px) {
+        .sidebar{
+            display: none;
+        }
         #about{
         padding-left: 20px;
         background: #d60404;
@@ -554,12 +685,12 @@ button:hover{
         }
         .home-content .image-item img{
             width: 100%;
-            height: 310px;
+            height: 250px;
             opacity: 0.5;
             z-index: 1;
       }
       .home-content .image-slider{
-        height: 310px;
+        height: 250px;
         background-color: rgb(0, 0, 0);
         overflow: hidden;
         width: 100%; 
@@ -653,8 +784,37 @@ button:hover{
       
       }
       .text-box{
+    
+      }
+  }
+  @media (max-width: 500px){
+    .home .text-two{
+      font-size: 55px;
+    }
+    .home .text-three{
+      font-size: 33px;
+    }
+    .sidebar{
+        display: none;
+        width: 60px;
+    }
+    .sidebar ul li{
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+    nav ul li{
+        display: none;
+    }
+    .sec-01{
+        display: none;
+        width: 100%;
+      
+      }
+      .text-box{
         display: b;
       }
   }
   
+  
+
   

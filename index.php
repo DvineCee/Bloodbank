@@ -85,6 +85,15 @@ session_start();
                 <a href="login.php"><button>Login</button></a>
                 <a href="getApp.php"><button>Get the App</button></a>
             </ul>
+            <div class="show">
+            <a href="login.php"><button>Login</button></a>
+                <a href="getApp.php"><button>Get the App</button></a>
+                </div>
+
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
         </nav>
         
 
